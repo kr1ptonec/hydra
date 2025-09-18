@@ -1,0 +1,7 @@
+vault-win-tmp
+vault_files
+mc.crt
+vault.exe
+vault
+.idea
+main/auth_test.go
