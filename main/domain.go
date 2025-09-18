@@ -14,9 +14,9 @@ import (
 	"time"
 )
 
-const contributeUrl = "https://github"                  // My contribute Url
-const domain = "mydomain.local"                         // YOUR DOMAIN HERE
-const RootCertPathNexus = "https://mycertpath/root.crt" // Your static path to certificate
+const contributeUrl = "https://github.com/kr1ptonec/hydra" // My contribute Url
+const domain = "mydomain.local"                            // YOUR DOMAIN HERE
+const RootCertPathNexus = "https://mycertpath/root.crt"    // Your static path to certificate
 
 // RootCertContent читает содержимое сертификата с указанного пути в Nexus сохранения на диск.
 func RootCertContent() (string, error) {
